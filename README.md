@@ -53,7 +53,7 @@ Now that you have your files set up, start by adding the basic HTML5 boilerplate
 To include Bootstrap in your project, add the following CDN link to the `<head>` of your `index.html` file:
 
 ```html
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://getbootstrap.com/docs/5.3/getting-started/download/#cdn-via-jsdelivr" rel="stylesheet">
 ```
 
 Your `<head>` section should now look like this:
@@ -63,7 +63,7 @@ Your `<head>` section should now look like this:
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bootstrap Basics</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/getting-started/download/#cdn-via-jsdelivr" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
 ```
