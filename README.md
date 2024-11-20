@@ -1,6 +1,6 @@
 # Bootstrap Basics
 
-![Screenshot of the finished webpage](assets//complete.png)
+![Screenshot of the finished webpage](assets//images//complete.png)
 
 ## Description 📄
 
@@ -10,8 +10,15 @@ In this project, you'll learn to build a simple webpage using Bootstrap. You wil
 
 ```
 bootstrap_basics/
-│   index.html
-│   styles.css`
+  assets/
+  | css
+    | styles.css
+  |  images
+    | complete.png
+    | puppy.jpg
+
+  index.html
+  README.md
 ```
 # Instructions ✅
 
@@ -19,7 +26,7 @@ bootstrap_basics/
 
 - [ ] Create a folder named `bootstrap_basics` to store all your project files.
 - [ ] Inside the `bootstrap_basics` folder, create a file named `index.html`. This will be your main HTML file.
-- [ ] Inside the `bootstrap_basics` folder, create a file named `styles.css`. This file will contain the CSS used to style your HTML content.
+- [ ] Inside the `assets` folder, create a new folder called `css`. Inside the `css` folder, create a file named `styles.css`. This file will contain the CSS used to style your HTML content.
 
 ## 2. **Add HTML Boilerplate**
 
@@ -32,7 +39,11 @@ Now that you have your files set up, start by adding the basic HTML5 boilerplate
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bootstrap Basics</title>
+<<<<<<< HEAD
+  <link rel="stylesheet" href="/assets/css/styles.css">
+=======
   <link rel="stylesheet" href="assets/styles.css">
+>>>>>>> 2b1ae444af3a32c6809930aceaab0ee8e45f13ed
 </head>
 <body>
   <!-- Your content goes here -->
@@ -59,7 +70,11 @@ Your `<head>` section should now look like this:
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bootstrap Basics</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<<<<<<< HEAD
+  <link rel="stylesheet" href="/assets/css/styles.css">
+=======
   <link rel="stylesheet" href="assets/styles.css">
+>>>>>>> 2b1ae444af3a32c6809930aceaab0ee8e45f13ed
 </head>
 ```
 **Explanation:**
@@ -121,7 +136,7 @@ Use Bootstrap's card component to display content. Each card should have an imag
   <div class="row">
     <div class="col-md-4">
       <div class="card" style="width: 18rem;">
-        <img src="assets/puppy.jpg"" class="card-img-top" alt="...">
+        <img src="assets/images/puppy.jpg"" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">
